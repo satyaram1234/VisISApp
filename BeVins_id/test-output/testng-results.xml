@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MyFirstTest" duration-ms="9706" started-at="2019-02-25T20:56:41Z" finished-at="2019-02-25T20:56:51Z">
+  <suite name="MyFirstTest" duration-ms="7292" started-at="2019-02-28T20:07:20Z" finished-at="2019-02-28T20:07:27Z">
     <groups>
     </groups>
-    <test name="New Test - Base Test1" duration-ms="9706" started-at="2019-02-25T20:56:41Z" finished-at="2019-02-25T20:56:51Z">
+    <test name="New Test - Base Test1" duration-ms="7292" started-at="2019-02-28T20:07:20Z" finished-at="2019-02-28T20:07:27Z">
       <class name="TestNGDemoNike.BaseClass">
-        <test-method status="PASS" signature="testNGDemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGDemoNike.BaseClass@124409e]" name="testNGDemo" duration-ms="9687" started-at="2019-02-25T15:56:41Z" finished-at="2019-02-25T15:56:51Z">
+        <test-method status="PASS" signature="testNGDemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGDemoNike.BaseClass@67b872]" name="testNGDemo" duration-ms="7274" started-at="2019-02-28T15:07:20Z" finished-at="2019-02-28T15:07:27Z">
           <params>
             <param index="0">
               <value>
