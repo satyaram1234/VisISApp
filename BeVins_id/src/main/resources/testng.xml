@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite thread-count="10" name="MyFirstTest" parallel="tests">
+
+
+  <test name="New Test - Base Test1">
+		<parameter name="targetEnvironment" value="iPhone 6" />
+		<parameter name="configId" value="1003" />
+		<parameter name="browser" value ="chrome"/>
+		
+		<parameter name="url" value ="http://www.google.com"/>
+		<parameter name="userID" value ="Ramanna.satyaph@gmail.com"/>
+		<classes>
+			<class name="TestNGDemoNike.BaseClass">
+				<methods>
+					<include name="testNGDemo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		
+	 		
+</suite> <!-- Suite -->
